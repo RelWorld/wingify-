@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/rg030/IdeaProjects/relevelProject001 2/relevelProject001 2">
+        <classes>
+            <class name="com.relevelProject.qa.testCases.HomePageFunctionality">
+                <methods><include name="HomePageTest"/>
+                </methods>
+            </class>
+            <class name="com.relevelProject.qa.testCases.LoginPageFunctionality">
+                <methods><include name="validLogIn"/>
+                    <include name="validLogInByEnter"/>
+                    <include name="blankLogIn"/>
+                    <include name="pasBoxenable"/>
+                    <include name="twiterNavigation"/>
+                    <include name="faceBookNavigation"/>
+                    <include name="linkedinNavigation"/>
+                    <include name="blankU_validP_combo"/>
+                    <include name="validU_blankP_combo"/></methods></class></classes></test></suite>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-21T11:26:36 IST" name="Default suite" finished-at="2023-05-21T11:26:54 IST" duration-ms="18689">
+    <groups>
+    </groups>
+    <test started-at="2023-05-21T11:26:36 IST" name="Default test" finished-at="2023-05-21T11:26:54 IST" duration-ms="18689">
+      <class name="com.relevelProject.qa.testCases.testName">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.relevelProject.qa.testCases.testName@21de60b4]" started-at="2023-05-21T11:26:36 IST" name="launchApplication" finished-at="2023-05-21T11:26:43 IST" duration-ms="6877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginApplication(java.util.HashMap)[pri:1, instance:com.relevelProject.qa.testCases.testName@21de60b4]" started-at="2023-05-21T11:26:43 IST" name="loginApplication" data-provider="getData" finished-at="2023-05-21T11:26:54 IST" duration-ms="11499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{loginId=hello hello, passwordDetials=180, loginIdinvalid=bye bye bye, passwordDetialsinvalid=180}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.relevelProject.qa.testCases.testName@21de60b4]" started-at="2023-05-21T11:26:54 IST" name="tearDown" finished-at="2023-05-21T11:26:54 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.relevelProject.qa.testCases.testName -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
